@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Website Layout</title>
+        <link rel="stylesheet" href="anExternal.css">
+    </head>
+
+    <body style="background-color:lightyellow;">
+        <div class="myDiv">
+            <h1>CSS implementation</h1>
+        </div>
+
+        <h2> 1. Paragraph of different font</h2>
+        <div class="row">
+            <div class="column">
+                <h3>paragraph 1</h3>
+                <p id="p1">
+                    This paragraphs are designed into two columns, with responsive
+                    adjustments of column layout based on the window size.
+                </p>
+            </div>
+
+            <div class="column">
+                <h3>paragraph 2</h3>
+                <p id="p2">
+                This paragraphs are designed into two columns, with responsive
+                adjustments of column layout based on the window size.                
+                </p>
+            </div>
+        </div>
+
+        <h2> 2. Picture resizing to (50, 50)</h2>
+        <div class="row">
+            <div class="column">
+                <img src="D:\py\INFO101\images\IMG_20220326_211815_676.jpg" 
+                alt="img1" width="50px" height="50px">
+            </div>
+            <div class="column">
+                <img src="D:\py\INFO101\images\QQ图片20220326115700.jpg" 
+                alt="img2" width="50px" height="50px">
+            </div>                
+        </div>    
+        
+        <h2> 3. One unique CSS command</h2>
+        <p>Multiple CSS elements are used in this html script such as CSS class instance,
+            column design.
+        </p>
+
+        <h2> 4. Text that is centered on a photo</h2>
+        <div class="container">
+            <img src="D:\py\INFO101\images\IMG_20220326_211815_676.jpg" 
+            alt="img1" width="350" heith="300">
+            <div class="centered">This text is displayed <br> in the center</div>
+        </div>
+
+        <h2> 5. Photo with margin</h2>
+        <div class="row">
+            <div class="column">             
+                <p><img src="D:\py\INFO101\images\University_of_Washington_seal.svg.png" 
+                    alt="uw logo" width="50" height="50">
+                    This shows an image <br>with no margin
+                </p>
+            </div>
+            <div class="column">
+                <p><img src="D:\py\INFO101\images\University_of_Washington_seal.svg.png" 
+                    alt="uw logo" width="50" height="50" style="vertical-align:middle; margin:20px 0px">
+                    This shows an image <br>with margin
+                </p>
+            </div>
+        </div>
+
+        <h2> 6. Text with a border that uses dotted lines</h2>
+        <div class="row">
+            <div class="column">             
+                <p class="dotted">This text has a dotted border</p>
+            </div>
+            <div class="column">
+                <p class="round">This text has a round border</p>
+            </div>
+        </div>
+
+        
+
+        <h2>7. An external style sheet</h2>
+        <p> The style specifications are entailed in a <br>
+            separate file named "anExternal.css"
+        </p>
+
+        <h2> 8. A floated element</h2>
+        <p> In this paragraph, the image will float to the left in the text.
+        </p>
+        <p><img id="img1" src="D:\py\INFO101\images\IPD.png" 
+            alt="IPD image" style="width: 120px;height: 40px;">
+            Natural proteins evolved over millions of years to solve the most <br>
+            complex challenges on Earth, but we face new and pressing challenges <br>
+            today. The goal of the Institute for Protein Design is to create a 
+            new world of synthetic<br> proteins to address these challenges.
+        </p>
+
+        <h2> 9. An element with rounded border corners</h2>
+        <p> This implementation is included in section 6. </p>
+
+        <p style="text-align:right">Anthony Qu</p>
+        <p style="text-align:right">University of Washington</p>
+        <p style="text-align:right">04/09/2022</p>
+    </body>
+
+
+
+
+</html>
