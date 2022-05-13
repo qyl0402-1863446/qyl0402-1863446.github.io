@@ -1,0 +1,82 @@
+body{
+    background-image: url('wood.png');
+}
+
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    background-color: blueviolet;
+    text-align: center;
+    background-image: url('dark.png');
+}
+
+#LeftNav{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    background-color: blueviolet;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    background-image: url('dark.png');
+}
+
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    background-image: url('dark.png');
+}
+#Footer{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    background-color: blueviolet;
+    text-align: center;
+    background-image: url('dark.png');
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#Header h1{ 
+    font-size: 60px; 
+    font-family: "Passion One";
+    color: #FFBC00; 
+    font-weight: bold; 
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+h3{
+    font-size: 60px; 
+    font-family: "Passion One";
+    color: #FFBC00; 
+    font-weight: bold;
+}
