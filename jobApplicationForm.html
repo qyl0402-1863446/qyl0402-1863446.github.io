@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="app_form.css" />
+	<title>Job Application</title>
+</head>
+
+<body>
+    <div id = 'header'>
+    <h2>Job Application</h2>
+    </div>
+    
+    <div id="volume2">
+        <h3>Background</h3>
+        Reseach Experience<br>
+        <textarea name="essay"></textarea><br>
+        Publications<br>
+        <textarea name="essay"></textarea>
+    </div>
+
+    <div id = "volume1">
+    <h3>Personal Information</h3>
+    First name: <input type="text" name="firstname"><br> 
+    Last name: <input type="text" name="lastname"><br>
+    Password: <input type="password" name="pwd"><br>
+    Re-enter Password: <input type="password" name="pwd">
+    </div>
+
+
+
+    <div id="volume3">
+    <h3>Detailed questions</h3>
+    Do you wish to work from home?<br>
+    <input type="radio" name="answer" value="yes"> Yes<br> 
+    <input type="radio" name="answer" value="no"> No<br>
+
+    
+    <div id="volume2">
+        <h3>Your desired office location</h3>
+        <select name="office"> 
+        <option value="Montain View, CA">Montain View, CA</option>
+        <option value="Cupertino, CA">Cupertino, CA</option>
+        <option value="Seattle, WA">Seattle, WA</option>
+        <option value="Durham, NC">Durham, NC</option>
+        </select>
+    </div>
+
+    Your degree status:<br>
+    <input type="checkbox" name="degree" value="Bachelor">Bachelor<br>
+    <input type="checkbox" name="degree" value="Master">Master<br>
+    <input type="checkbox" name="degree" value="Doctor of Philosophy">Doctor of Philosophy<br>
+    <input type="checkbox" name="degree" value="Medical Doctor">Medical Doctor<br>
+    <input type="checkbox" name="degree" value="Pharm Doctor">Pharm Doctor
+    </div>
+    
+    <div id="volume4">
+        <input type="submit" value="Submit form">
+        <form name="input" action="html_form_action.asp" method="post"> UW BHI </form>
+    </div>
+
+
+
+
+</body>
+</html>

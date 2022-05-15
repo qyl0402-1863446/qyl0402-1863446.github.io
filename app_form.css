@@ -1,0 +1,62 @@
+body{
+    background-image: url('data/wood.png');
+}
+
+h2{
+    color: rgb(255, 213, 0);
+    font-size: xx-large;
+}
+
+#header{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: solid 5px black;
+    background-color: rgb(165, 95, 230);
+    text-align: center;
+}
+
+#volume1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    float: none;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#volume2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    float:right;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#volume3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    float:none;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#volume4{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: solid 5px black;
+    background-color: rgb(165, 95, 230);
+    text-align: center;
+}
+
